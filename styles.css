@@ -1,0 +1,24 @@
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.fullpane
+{   
+    padding :10px;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+
+.clock__container
+{
+    color:aqua;
+    font-size: 100px;   
+    font-weight: 100;
+    text-align:center;
+
+    margin-top: 250px;
+}
