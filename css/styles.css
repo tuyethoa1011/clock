@@ -13,6 +13,16 @@
     background-color: black;
 }
 
+.middlepane
+{   
+    display: block;
+    width: 35%;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .clock__container
 {
     color:aqua;
@@ -20,5 +30,88 @@
     font-weight: 100;
     text-align:center;
 
-    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
 }
+
+.button__countdown
+{
+    color:white;
+    background-color: tomato;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+
+    padding: 2px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.button__countdown:hover
+{
+    transition: 0.5;
+    color: black;
+    background-color: aqua
+}
+
+.input__time
+{   
+    display: block;
+    height: 150px;
+    width: 130px;
+    padding:5px;
+
+    color:aqua;
+    background-color: rgb(62, 60, 60);
+    font-size: 100px;
+}
+
+.button__startstop
+{
+    color:white;
+    background-color: tomato;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60px;
+
+    padding: 2px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.button__startstop:hover
+{
+    transition: 0.5;
+    color: black;
+    background-color: aqua
+}
+
+.countdown__container
+{
+    color:aqua;
+    font-size: 80px;   
+    font-weight: 100;
+    text-align:center;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
